@@ -1,12 +1,12 @@
 # Cassio Almeida · Portfólio de Arquitetura de IA
 
-**Arquiteto de IA · Technical Solutions Advisor · CTO**
+**Arquiteto de IA · Technical Solutions Advisor · CTO**  
 Guaíba, RS, Brasil · remoto no Brasil, híbrido em Porto Alegre
 
-Página do portfólio: https://cassioa001-tech.github.io
-PDF: [Portfolio_Cassio_Almeida.pdf](Portfolio_Cassio_Almeida.pdf)
-LinkedIn: https://www.linkedin.com/in/cassioalmeida79/
-Contato: cassio.a001@gmail.com · +55 (51) 98411-0563
+- Página do portfólio: https://cassioa001-tech.github.io
+- PDF: [Portfolio_Cassio_Almeida.pdf](Portfolio_Cassio_Almeida.pdf)
+- LinkedIn: https://www.linkedin.com/in/cassioalmeida79/
+- Contato: cassio.a001@gmail.com · +55 (51) 98411-0563
 
 ## Tese
 
