@@ -15,7 +15,7 @@ Um agente vale pelo gate, não pela persona. Verificadores mecânicos que aprova
 ## O que está aqui
 
 - **Arquitetura de IA:** casos com problema, decisão, trade-off e evidência. Agentes com verificação obrigatória, arquitetura agnóstica de fornecedor (MCP, A2A, OpenTelemetry, OIDC, OCI), massas de teste com gabarito e regressão.
-- **IA em projetos e letramento:** programa corporativo de adoção de IA, letramento por público, frentes de SDLC, modernização de legado, automação, COE de Qualidade e COE de IA.
+- **IA em projetos e letramento:** programa corporativo de adoção de IA, SDLC com agentes em produção desde dez/2025 (118 agentes, 6 servidores MCP), letramento por público e Trilha técnica de 74h, modernização de legado (COBOL, ColdFusion), automação, COE de Qualidade e COE de IA.
 - **Pré-vendas:** discovery com executivos, recorte de PoC com linha de base e critério de aceite.
 - **Liderança:** mais de uma década liderando engenharia, produto e operação.
 

@@ -227,10 +227,19 @@ footer strong{color:var(--ink);font-family:var(--display)}
       </dl>
     </article>
     <article class="acase">
+      <div class="hd"><span class="n">Produção</span><h3>SDLC com agentes em produção</h3></div>
+      <dl>
+        <dt>Problema</dt><dd>Squads de modernização de legado numa plataforma de benefícios e gestão de frotas de grande porte, no Brasil e na França, precisavam entender código antigo, regras escondidas em procedures e integrações antes de mexer.</dd>
+        <dt>Decisão</dt><dd>Liderei a criação de 118 agentes especializados, 6 servidores MCP e mais de 50 ferramentas MCP, com Claude Code como núcleo. A cadeia em produção desde dez/2025: análise do legado (código, regras em procedures, stacks e integrações), agentes analista e arquiteto, PO que gera épicos, histórias e tarefas no Azure DevOps, Dev por stack, QA de todo o fluxo de testes até o Pull Request e DevOps para CI/CD. Gate humano em cada decisão.</dd>
+        <dt>Trade-off</dt><dd>Gate humano em todas as etapas deixa o fluxo menos automático. Em troca, nada chega ao merge sem revisão, e cada decisão fica registrada.</dd>
+        <dt class="ev">Resultado</dt><dd class="ev">Medido num caso real: ~25.700 linhas de legado analisadas, 1 bug crítico prevenido antes do merge, conformidade arquitetural 3/3, documentação de 0 para 2 e testes de 0 para 3. Estimado, com baseline declarado: compreensão do legado ~70 a 85% mais rápida, implementação ~50 a 60% e documentação ~70%. Framework de medição com DORA, SPACE e DevEx.</dd>
+      </dl>
+    </article>
+    <article class="acase">
       <div class="hd"><span class="n">Letramento</span><h3>Letramento em IA por público</h3></div>
       <dl>
         <dt>Problema</dt><dd>Cada público usava IA de um jeito e ninguém tinha critério comum: liderança sem saber o que cobrar, negócio sem saber o que pedir, time técnico sem saber como validar.</dd>
-        <dt>Decisão</dt><dd>Concebi e conduzi trilhas separadas para lideranças, times de negócio e times técnicos, internamente e em clientes. O fio comum era o mesmo em todas: uso responsável e LGPD, onde IA agrega no trabalho de cada um e como verificar a saída antes de confiar nela.</dd>
+        <dt>Decisão</dt><dd>Concebi e conduzi trilhas separadas para lideranças, times de negócio e times técnicos, internamente e em clientes. O fio comum era o mesmo em todas: uso responsável e LGPD, onde IA agrega no trabalho de cada um e como verificar a saída antes de confiar nela. Para times técnicos, concebi, estruturei e ministrei a Trilha de IA de 74h: SDLC com IA, geração e revisão de código e testes, agentes com MCP e RAG, e arquitetura de sistemas com IA.</dd>
         <dt>Trade-off</dt><dd>Três trilhas custam mais para montar e manter que uma palestra única. Em troca, cada público sai com prática aplicável ao próprio trabalho.</dd>
         <dt class="ev">Resultado</dt><dd class="ev">Letramento conduzido para equipes internas e para times de clientes, incluindo telecom e serviços financeiros.</dd>
       </dl>
@@ -245,7 +254,7 @@ footer strong{color:var(--ink);font-family:var(--display)}
     <article class="case">
       <div class="meta"><span>Legado</span><span>Modernização</span></div>
       <h3>Migração e obsolescência com IA</h3>
-      <p>Soluções e POCs de migração de COBOL, ColdFusion e Java obsoleto para stacks atuais, em meios de pagamento, benefícios e seguros: levantamento de regras de negócio do legado, plano em lotes e prova de equivalência.</p>
+      <p>Soluções e POCs de migração de COBOL, ColdFusion e Java obsoleto para stacks atuais, em meios de pagamento, benefícios e seguros: levantamento de regras de negócio do legado, plano em lotes e prova de equivalência. POCs de COBOL para Java 17 com agentes numa processadora de pagamentos global e num banco digital; em demo, 8 programas analisados em cerca de 7 minutos e backlog técnico em cerca de 10 minutos. Projeto real de ColdFusion e Sybase para Java e Oracle.</p>
     </article>
     <article class="case">
       <div class="meta"><span>COE de Qualidade</span><span>QA com IA</span></div>
@@ -258,6 +267,8 @@ footer strong{color:var(--ink);font-family:var(--display)}
       <p>Copiloto comercial para banco de grande porte e automação de processos de negócio com IA generativa, sempre com hipótese mensurável e linha de base definidas antes da construção.</p>
     </article>
   </div>
+  <p class="sub"><b>Ambientes regulados:</b> BACEN (Res. CMN 4.893 e 4.557), PCI-DSS, LGPD, GDPR, SOC 2, ISO 27001 (implantação numa adquirente) e consultoria de implantação de ISO 27001 e ISO 42001.</p>
+  <p class="sub"><b>Ferramentas e stacks:</b> Claude Code e API Anthropic, Cursor, Gemini CLI; MCP, A2A, LangGraph, LangChain; Azure OpenAI, Azure AI Search (busca híbrida e semantic ranker), Azure AI Foundry, Copilot Studio, Microsoft Fabric; Vertex AI, Vertex AI Vector Search, Gemini Enterprise, ADK, BigQuery, Spanner; ChromaDB e NeMo Guardrails em POC; Azure DevOps, GitHub Actions, Docker, Kubernetes, Terraform; Python, Java 17, Spring Boot 3.</p>
 </section>
 
 <section id="tsa">
@@ -286,7 +297,7 @@ footer strong{color:var(--ink);font-family:var(--display)}
     <article class="case">
       <div class="meta"><span>Fast2Mine</span><span>2023 – 2025</span><span>CTO</span></div>
       <h3>Tecnologia para operar em quatro continentes</h3>
-      <p>Estratégia tecnológica global, produtos para expansão internacional, CI/CD, DevOps, LGPD, GDPR, SOC 2 e nuvem AWS e GCP com FinOps.</p>
+      <p>Estratégia tecnológica global, produtos para expansão internacional, CI/CD, DevOps, LGPD, GDPR, SOC 2, ISO 27001 e nuvem AWS e GCP com FinOps (Vertex AI, BigQuery, Spanner, Kubernetes e Terraform).</p>
       <div class="result"><span class="label">Resultado medido</span><p>Cloud -45%, estrutura -30% com quatro lideranças promovidas, operação em mais de 9 países.</p></div>
     </article>
     <article class="case">
@@ -340,11 +351,11 @@ footer strong{color:var(--ink);font-family:var(--display)}
   </div>
 </section>
 
-<p class="note">Números do método conforme o último estado medido, de 23 e 24 de setembro de 2026. Clientes citados por mercado, porte e localização. Versão sempre atualizada neste link: <a href="https://drive.google.com/file/d/16PbA0OF_jXUT9kSu3BFGVJ47iVIvwra8/view">https://drive.google.com/file/d/16PbA0OF_jXUT9kSu3BFGVJ47iVIvwra8/view</a></p>
+<p class="note">Números do método conforme o último estado medido, de 23 e 24 de setembro de 2026; experiência em produção atualizada em 2 de outubro de 2026. Clientes citados por mercado, porte e localização. Versão sempre atualizada neste link: <a href="https://drive.google.com/file/d/16PbA0OF_jXUT9kSu3BFGVJ47iVIvwra8/view">https://drive.google.com/file/d/16PbA0OF_jXUT9kSu3BFGVJ47iVIvwra8/view</a></p>
 
 <footer>
   <div><strong>Cassio S. Almeida</strong> · +55 (51) 98411-0563 · cassio.a001@gmail.com</div>
-  <div>Portfólio · setembro de 2026</div>
+  <div>Portfólio · outubro de 2026</div>
 </footer>
 </div>
 </body></html>
