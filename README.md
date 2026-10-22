@@ -1,6 +1,6 @@
 # Cassio Almeida · Portfólio de Arquitetura de IA
 
-**Arquiteto de IA · Technical Solutions Advisor · CTO**  
+**Arquiteto de IA · CAIO (Chief AI Officer) · Technical Solutions Advisor · CTO**  
 Guaíba, RS, Brasil · remoto no Brasil, híbrido em Porto Alegre
 
 - Página do portfólio: https://cassioa001-tech.github.io
@@ -18,6 +18,7 @@ Um agente vale pelo gate, não pela persona. Verificadores mecânicos que aprova
 - **IA em projetos e letramento:** programa corporativo de adoção de IA, SDLC com agentes em produção desde dez/2025 (118 agentes, 6 servidores MCP), letramento por público e Trilha técnica de 74h, modernização de legado (COBOL, ColdFusion), automação, COE de Qualidade e COE de IA.
 - **Pré-vendas:** discovery com executivos, recorte de PoC com linha de base e critério de aceite.
 - **Liderança:** mais de uma década liderando engenharia, produto e operação.
+- **Liderança de IA (perfil CAIO):** estratégia, adoção e governança de IA em escala corporativa, do letramento dos times à verificação automática da saída dos agentes.
 
 ## Números do método
 
