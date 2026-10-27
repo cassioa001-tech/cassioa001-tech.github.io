@@ -177,7 +177,7 @@ footer strong{color:var(--ink);font-family:var(--display)}
         <dt>Problema</dt><dd>Um catálogo de agentes precisa escolher o agente certo, saber o que cada um faz e melhorar com o uso. Agente que reescreve o próprio comportamento impede dizer, numa auditoria, sob qual versão um artefato foi gerado.</dd>
         <dt>Decisão</dt><dd>Comportamento versionado em git, mudando só por revisão humana. O aprendizado vira proposta de mudança. Orquestrador de seleção por frente, orquestrador de monitoramento, agente que propõe ajuste de acurácia e rastro de ponta a ponta de cada execução.</dd>
         <dt>Trade-off</dt><dd>Abro mão de adaptação em tempo real. Cada artefato aponta para a versão exata que o produziu, e cada melhoria tem autor e aprovação.</dd>
-        <dt class="ev">Evidência</dt><dd class="ev">Os gates que verificam a própria plataforma têm gabarito, com precisão 1,00 e recall 1,00 sobre 22 verificadores, e linha de base congelada que acusa queda.</dd>
+        <dt class="ev">Evidência</dt><dd class="ev">Os gates que verificam a própria plataforma têm gabarito, com precisão 1,00 e recall 1,00 sobre 39 verificadores em 117 massas de mercado e stack (751 defeitos plantados, 686 cobertos por gate e 65 em lacuna declarada, medido em 27/10/2026), e linha de base congelada que acusa queda.</dd>
       </dl>
     </article>
 
@@ -187,7 +187,7 @@ footer strong{color:var(--ink);font-family:var(--display)}
         <dt>Problema</dt><dd>Toda POC de IA termina na pergunta "o agente está bom?". Sem linha de base, a resposta é opinião.</dd>
         <dt>Decisão</dt><dd>Massas sintéticas por mercado e stack, cada uma com gabarito dos defeitos plantados, e um aferidor de precisão, recall e lacuna declarada. A massa não é o produto; o gabarito é. Nenhum dado real entra, nem anonimizado.</dd>
         <dt>Trade-off</dt><dd>Dado sintético não reproduz todo o ruído de um sistema real. Aceito para poder medir, repetir e mostrar sem expor ninguém, e declaro o que fica de fora.</dd>
-        <dt class="ev">Evidência</dt><dd class="ev">123 massas, com regressão que compara cada rodada com a anterior. Última rodada sem nenhuma queda.</dd>
+        <dt class="ev">Evidência</dt><dd class="ev">123 massas, com regressão que compara cada rodada com a anterior. Regressão de 27/10/2026 sobre 137 massas medidas: nenhuma queda; 2 não comparáveis por mudança de hash.</dd>
       </dl>
     </article>
 
@@ -352,7 +352,7 @@ footer strong{color:var(--ink);font-family:var(--display)}
   </div>
 </section>
 
-<p class="note">Números do método (34 gates, 299 verificadores, 66 agentes, 123 massas) conforme o estado medido em 27 de outubro de 2026; precisão e recall sobre 22 verificadores e a regressão das massas são da medição de 23 e 24 de setembro de 2026; experiência em produção atualizada em 2 de outubro de 2026. Clientes citados por mercado, porte e localização. Versão sempre atualizada neste link: <a href="https://drive.google.com/file/d/16PbA0OF_jXUT9kSu3BFGVJ47iVIvwra8/view">https://drive.google.com/file/d/16PbA0OF_jXUT9kSu3BFGVJ47iVIvwra8/view</a></p>
+<p class="note">Números do método (34 gates, 299 verificadores, 66 agentes, 123 massas) conforme o estado medido em 27 de outubro de 2026, incluindo precisão, recall e regressão das massas; experiência em produção atualizada em 2 de outubro de 2026. Clientes citados por mercado, porte e localização. Versão sempre atualizada neste link: <a href="https://drive.google.com/file/d/16PbA0OF_jXUT9kSu3BFGVJ47iVIvwra8/view">https://drive.google.com/file/d/16PbA0OF_jXUT9kSu3BFGVJ47iVIvwra8/view</a></p>
 
 <footer>
   <div><strong>Cassio S. Almeida</strong> · +55 (51) 98411-0563 · cassio.a001@gmail.com</div>
