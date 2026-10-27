@@ -1,4 +1,4 @@
-# Cassio Almeida · Portfólio de Arquitetura de IA
+# Cassio S. Almeida · Portfólio de Arquitetura de IA
 
 **Arquiteto de IA · CAIO (Chief AI Officer) · Technical Solutions Advisor · CTO**  
 Guaíba, RS, Brasil · remoto no Brasil, híbrido em Porto Alegre
@@ -22,7 +22,7 @@ Um agente vale pelo gate, não pela persona. Verificadores mecânicos que aprova
 
 ## Números do método
 
-Último estado medido, 23 e 24 de setembro de 2026: 20 gates, 183 verificadores, 25 agentes e 118 massas com gabarito; precisão e recall de 1,00 sobre 22 verificadores; regressão completa das 118 massas sem queda.
+Estado medido em 27 de outubro de 2026: 34 gates, 299 verificadores, 66 agentes e 123 massas com gabarito. Precisão e recall de 1,00 sobre 22 verificadores e regressão completa das massas sem queda são da medição de 23 e 24 de setembro de 2026.
 
 ## Regras deste repositório
 
